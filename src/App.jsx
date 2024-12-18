@@ -29,12 +29,23 @@ function App() {
         </div>
       </div>
       <div class="flex items-center justify-center mt-4 mb-4">
-        <a href="#" class="   block max-w-sm p-6 bg-white border  border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700  ">
-          <p class=" flex items-center justify-center font-normal text-gray-700 dark:text-gray-400 mb-4">THIS IS THE SECERET KEY</p>
-          <h5 class="  mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white jus">{mnemonic}</h5>
+        <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <p className="flex items-center justify-center font-normal text-gray-700 dark:text-gray-400 mb-4">
+            THIS IS THE SECRET KEY
+          </p>
+          <div className="flex flex-wrap gap-2 justify-center">
+            {mnemonic.split(" ").map((word, index) => (
+              <span
+                key={index}
+                className="px-4 py-2 bg-gray-100 border border-gray-300 rounded-lg text-gray-900 dark:bg-gray-700 dark:border-gray-500 dark:text-white"
+              >
+                {word}
+              </span>
+            ))}
+          </div>
+        </div>
 
-        </a>
-      </div>
+      </div>x
       <div class="flex items-center justify-center mt-4 mb-4">
         <EthWallet mnemonic={mnemonic} />
       </div>
