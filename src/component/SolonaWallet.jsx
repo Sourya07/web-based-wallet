@@ -25,7 +25,7 @@ export function SolanaWallet({ mnemonic }) {
             Sol wallet
         </button>
     </div>
-        <div class="flex items-center justify-center mt-4 mb-4">
+        <div class=" items-center justify-center mt-4 mb-4">
             {publicKeys.map(p => <div>
                 {p.toBase58()}
             </div>)}
