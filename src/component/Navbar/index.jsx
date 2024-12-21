@@ -11,10 +11,10 @@ const Navbar = () => {
                     <img
                         src="https://flowbite.com/docs/images/logo.svg"
                         className="h-8"
-                        alt="Flowbite Logo"
+                        alt=" STRINGX"
                     />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                        Flowbite
+                        STRINGX
                     </span>
                 </a>
 
@@ -53,7 +53,7 @@ const Navbar = () => {
                     <ul className="flex flex-col lg:flex-row lg:items-center font-medium rounded-lg lg:space-x-6 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 lg:bg-transparent lg:dark:bg-transparent">
                         <li>
                             <a
-                                href="/wallet"
+                                href="/"
                                 className="block py-2 px-3 text-white bg-blue-700 rounded dark:bg-blue-600 lg:bg-transparent lg:dark:bg-transparent"
                                 aria-current="page"
                             >
@@ -62,18 +62,18 @@ const Navbar = () => {
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/"
                                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:bg-transparent lg:dark:hover:bg-transparent"
                             >
-                                Services
+                                Airdrop
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/about"
                                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:bg-transparent lg:dark:hover:bg-transparent"
                             >
-                                Pricing
+                                Keywallet
                             </a>
                         </li>
                         <li>

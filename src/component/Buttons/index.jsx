@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles.css'; // Ensure this is correctly imported
 
 import {
     WalletMultiButton as DefaultWalletMultiButton,
@@ -8,13 +8,13 @@ import {
 
 const WalletMultiButton = () => {
     return (
-        <DefaultWalletMultiButton />
+        <DefaultWalletMultiButton className="wallet-adapter-button" />
     );
 };
 
 const WalletDisconnectButton = () => {
     return (
-        <DefaultWalletDisconnectButton />
+        <DefaultWalletDisconnectButton className="wallet-adapter-button" />
     );
 };
 

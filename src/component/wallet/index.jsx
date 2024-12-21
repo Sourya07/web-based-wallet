@@ -18,7 +18,7 @@ function WalletButtons() {
 
 
 
-            <div class="w-full max-w-[600px] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="w-full max-w-[600px] p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-[#131212] dark:border-gray-700">
                 <h1 class="text-3xl font-semibold">Request Airdrop</h1>
                 <p class="mb-4">Maximum of 2 requests per hour</p>
 

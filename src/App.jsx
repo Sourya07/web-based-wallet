@@ -16,8 +16,8 @@ function App() {
       <Router>
         <Routes>
 
-          <Route path="/" element={<Key />} />
-          <Route path="/about" element={< WalletButtons />} />
+          <Route path="/" element={<WalletButtons />} />
+          <Route path="/about" element={< Key />} />
           <Route path="/contact" element={<Key />} />
         </Routes>
 
