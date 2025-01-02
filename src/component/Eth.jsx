@@ -15,6 +15,7 @@ export const EthWallet = ({ mnemonic }) => {
             }
 
             // Generate seed and derive wallet
+
             const seed = await mnemonicToSeed(mnemonic);
             const derivationPath = `m/44'/60'/${currentIndex}'/0'`;
             const hdNode = HDNodeWallet.fromSeed(seed);
