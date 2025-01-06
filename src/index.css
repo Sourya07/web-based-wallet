@@ -10,4 +10,6 @@ body {
   padding-bottom: 20px;
   padding-left: 10px;
   width: 300px;
+  font-family: Arial, sans-serif; /* Add font-family if needed */
+  color: black; /* This sets the font color to black */
 }
