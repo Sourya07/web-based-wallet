@@ -1,5 +1,6 @@
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
+import { SignMessage } from "../component/Signmessage";
 
 export function ShowSolBalance() {
     const { connection } = useConnection();
@@ -16,5 +17,6 @@ export function ShowSolBalance() {
     getBalance();
     return <div>
         <p>SOL Balance:</p> <div id="balance"></div>
+        <SignMessage />
     </div>
 }
