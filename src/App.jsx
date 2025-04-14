@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import WalletButtons from './component/wallet';
 import { ShowSolBalance } from './Balance';
 import { TokenLaunchpad } from './component/TokenGenrator';
+import { SendTokens } from './SendMoney';
 
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Key />} />
           <Route path="/Balance" element={<ShowSolBalance />} />
           <Route path="/token" element={<TokenLaunchpad />} />
+          <Route path="/sendSolana" element={< SendTokens />} />
         </Routes>
 
 
