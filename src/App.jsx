@@ -19,8 +19,9 @@ function App() {
       <Router>
         <Routes>
 
-          <Route path="/" element={<WalletButtons />} />
+
           <Route path="/about" element={< Key />} />
+          <Route path="/" element={<WalletButtons />} />
           <Route path="/contact" element={<Key />} />
           <Route path="/Balance" element={<ShowSolBalance />} />
           <Route path="/token" element={<TokenLaunchpad />} />
