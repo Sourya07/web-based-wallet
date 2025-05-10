@@ -5,8 +5,10 @@ import Key from './key';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import WalletButtons from './component/wallet';
 import { ShowSolBalance } from './Balance';
-import { TokenLaunchpad } from './component/TokenGenrator';
+// import { TokenLaunchpad } from './component/TokenGenrator';
 import { SendTokens } from './SendMoney';
+
+import { TokenLaunchpad } from './Tokeng';
 
 
 
